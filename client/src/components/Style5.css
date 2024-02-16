@@ -1,0 +1,53 @@
+.top-donors-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 400px; 
+    margin: 0 auto; 
+    background-image: url('fire_heart.png'); /* Add the background image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+  }
+  
+  .limit-input {
+    margin-right: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin: 10px 0;
+    color: red;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  

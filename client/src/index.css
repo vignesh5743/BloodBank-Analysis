@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+ 
+
+*{
+  font-family: 'Cambria','sans-serif' !important;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* body {
+  background-image: "desktop_wallpaper_bloodbank.jpg";
+} */
+
+/* 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+
+ button {
+  border-radius: 0!important;
+  box-shadow: None !important;
+  height:40px !important;
+  
+} 
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+input , textarea,select{
+  min-height:40px !important;
+  border: 1px solid #61677A !important;
+  border-radius: 2px !important;
+  width:100% !important;
+
+}
+
+input:focus,textarea:focus{
+  outline:none !important;
+  box-shadow: none !important;
+}
+
+.ant-form-item{
+  margin-bottom: 0 !important;
+}
+ /* .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet; 
+  
+}
+
+.project_title {
+color:aliceblue;
+
+}  */
+
+
+a:hover{
+  text-decorator: underline !important;
+  color:#61677A !important; 
+}
+
+i{
+  font-size: 20px;
+}
+
+.ant-form-item-label{
+  padding: 0 !important;
+}
+
+
+table{
+  border: 1px solid #484646 !important;
+  border-radius: 2px !important;
+}
